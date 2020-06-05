@@ -1,5 +1,5 @@
 #exit point of Matrix
-
+#Simple Solution for Exitpoint of matrix 
 public class NewClass4 {
 
     public static int outofmatrix(int row,int column,int m,int n)
