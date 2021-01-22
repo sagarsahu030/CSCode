@@ -38,4 +38,27 @@ body{
 .navbar-dark{
     background-color:#512DA8;
 }
+.tab-content{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.carousel{
+    background: #512DA8;
+
+}
+
+.carousel-item{
+    height: 300px;
+
+}
+/* this will posoiton the image to the top left edge of the carousel box there */
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 300px;
+}
 
