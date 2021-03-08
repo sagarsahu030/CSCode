@@ -1,4 +1,5 @@
 .button{
+    
     display:flex;
     height:4em;
     flex:1;
@@ -9,6 +10,12 @@
     background-color: #e0e1e6;
     color: #888;
     outline: 1px solid #888;
-    
 
+
+}
+
+.operator{
+    background-color: #fe9241;
+    color:#888;
+    
 }

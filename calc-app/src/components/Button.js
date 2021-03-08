@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 import './Button.css';
 
 class Button extends Component {
+    // constructor(props) {
+    //     super(props)
+    
+    //     // this.handleClick=this.handleClick.bind(this);
+    // }
+    
     isOperator=val=>{
         // it will check if it is a number or not 
         // if it is not a number it will return true due to this '!' 
@@ -10,15 +16,13 @@ class Button extends Component {
     }
     render() {
         return (
-            <div className=
             // what we are doing here is
             // using backtick
             // check if this is nut a number or it is a space or it is a . then we wont do anything
             // else we add a class component called operator 
-            {
-                `button ${this.isOperator(this.props.children)?"":"operator"}`
-        
-            }
+            <div className=
+            {`button ${this.isOperator(this.props.children)? "":"operator"}`}
+            onClick={() => this.props.handleClick(this.props.children)}
             >
                 {this.props.children}
             </div>
